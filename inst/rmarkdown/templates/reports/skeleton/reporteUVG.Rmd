@@ -10,7 +10,7 @@ output:
     toc_float: true
     code_folding: show 
     self_contained: true
-    theme: paper 
+    theme: "paper" 
 ---
 
 ```{r setup, include=FALSE}
