@@ -1,0 +1,40 @@
+---
+title: "Template Title"
+author: "your name"
+date: '`r format(Sys.time(), "%d/%m/%Y")`'
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
+    toc_float: true
+    code_folding: show 
+    self_contained: true
+    theme: paper 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Paquetes 
+
+```{r packages, warning=FALSE, message=FALSE}
+
+```
+
+## Data 
+
+```{r data}
+
+```
+
+
+Comenzar a escribir el laboratorio aqui. Asegurense de haber creado un 'R project' que contenga los folders:
+- data: documentos con datos en formato .csv o .xlsx 
+- figs: aqui guardaremos todas las imagenes o figuras que hayamos creado. Pueden estar en formato .png o .jpg 
+
+
+
